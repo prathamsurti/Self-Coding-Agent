@@ -1,0 +1,39 @@
+2025-04-24 11:15:25,128 - INFO - Script started.
+2025-04-24 11:15:25,128 - INFO - Calling calculate_sum_buggy with mixed data types...
+2025-04-24 11:15:25,128 - INFO - Starting sum calculation for list: [10, 20, 5, 'oops', 30, 15]
+2025-04-24 11:15:25,128 - INFO - Added 10 to total. Current total: 10
+2025-04-24 11:15:25,129 - INFO - Added 20 to total. Current total: 30
+2025-04-24 11:15:25,129 - INFO - Added 5 to total. Current total: 35
+2025-04-24 11:15:25,129 - ERROR - Failed to add item #3 ('oops') to total. Error: unsupported operand type(s) for +=: 'int' and 'str'
+Traceback (most recent call last):
+  File "D:\Local_codder\error_code.py", line 39, in calculate_sum_buggy
+    total += item
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+2025-04-24 11:15:25,134 - WARNING - Skipping item #3 due to incompatible type.
+2025-04-24 11:15:25,134 - INFO - Added 30 to total. Current total: 65
+2025-04-24 11:15:25,134 - INFO - Added 15 to total. Current total: 80
+2025-04-24 11:15:25,134 - INFO - Finished sum calculation. Final total (potentially incomplete): 80
+2025-04-24 11:15:25,134 - INFO - Function returned: 80
+2025-04-24 11:15:25,134 - INFO - Calling calculate_sum_buggy with valid data...
+2025-04-24 11:15:25,134 - INFO - Starting sum calculation for list: [100, 200, 50]
+2025-04-24 11:15:25,134 - INFO - Added 100 to total. Current total: 100
+2025-04-24 11:15:25,134 - INFO - Added 200 to total. Current total: 300
+2025-04-24 11:15:25,134 - INFO - Added 50 to total. Current total: 350
+2025-04-24 11:15:25,134 - INFO - Finished sum calculation. Final total (potentially incomplete): 350
+2025-04-24 11:15:25,134 - INFO - Function returned: 350
+2025-04-24 11:15:25,134 - INFO - Script finished.
+2025-04-28T03:36:04+0530 - INFO - [d:\Local_codder\agents\Faulty code\codes.py:71] - Logging started by script identified as: d:\Local_codder\agents\Faulty code\codes.py
+2025-04-28T03:36:04+0530 - DEBUG - [d:\Local_codder\agents\Faulty code\codes.py:72] - This is a detailed debug message.
+2025-04-28T03:36:04+0530 - INFO - [d:\Local_codder\agents\Faulty code\codes.py:73] - This is an informational message.
+2025-04-28T03:36:04+0530 - WARNING - [d:\Local_codder\agents\Faulty code\codes.py:74] - This is a warning message.
+2025-04-28T03:36:04+0530 - INFO - [d:\Local_codder\agents\Faulty code\codes.py:78] - Entered the simulated function.
+2025-04-28T03:36:04+0530 - ERROR - [d:\Local_codder\agents\Faulty code\codes.py:79] - An error occurred inside another function.
+2025-04-28T03:36:04+0530 - ERROR - [d:\Local_codder\agents\Faulty code\codes.py:86] - Caught a division by zero exception!
+Traceback (most recent call last):
+  File "d:\Local_codder\agents\Faulty code\codes.py", line 82, in another_module_or_function
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+2025-04-28T03:36:04+0530 - INFO - [d:\Local_codder\agents\Faulty code\codes.py:87] - Exiting the simulated function.
+2025-04-28T03:36:04+0530 - CRITICAL - [d:\Local_codder\agents\Faulty code\codes.py:93] - This is a critical error message.
+2025-04-28T03:36:04+0530 - INFO - [d:\Local_codder\agents\Faulty code\codes.py:94] - Logging finished for this run.
